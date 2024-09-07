@@ -5,6 +5,9 @@ import (
 )
 
 func main() {
-	piscine.QuadB(5, 6)
+	piscine.QuadA(5,3)
+	piscine.QuadA(5,1)
+	piscine.QuadA(1,1)
+	piscine.QuadA(1,5)
 
 }
