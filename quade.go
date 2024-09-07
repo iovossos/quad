@@ -2,7 +2,7 @@ package piscine
 
 import "fmt"
 
-func QuadE(x, y int) {
+func PrintRectangle(x, y int) {
     if x <= 0 || y <= 0 {
         return
     }
@@ -21,9 +21,15 @@ func QuadE(x, y int) {
             } else if i == y-1 && j == x-1 {
                 // Lower right corner
                 fmt.Print("A")
-            } else {
-                // The rest of the characters in between
+            } else if i == 0 || i == y-1 {
+                // Top or bottom border
                 fmt.Print("B")
+            } else if j == 0 || j == x-1 {
+                // Left or right border
+                fmt.Print("B")
+            } else {
+                // Inside of the rectangle, empty space
+                fmt.Print(" ")
             }
         }
         fmt.Println()
