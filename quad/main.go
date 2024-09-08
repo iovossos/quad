@@ -21,9 +21,13 @@ func main() {
 	piscine.QuadB(1, 5)
 
 	piscine.QuadD(5, 3)
-	piscine.QuadD(1, 5)
+	piscine.QuadD(5, 1)
 	piscine.QuadD(1, 1)
-	piscine.QuadD(1, 1)
 	piscine.QuadD(1, 5)
+
+	piscine.QuadC(5, 3)
+	piscine.QuadC(5, 1)
+	piscine.QuadC(1, 1)
+	piscine.QuadC(1, 5)
 
 }
